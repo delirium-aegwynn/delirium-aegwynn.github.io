@@ -1,0 +1,36 @@
+.topnav {
+  position: sticky;
+  z-index: 100000;
+  color: white;
+  background-color: #101010;
+  align-items: center;
+}
+
+.topnav-label {
+  margin: 0;
+  padding: 23px;
+  font-size: 16px;
+  color: #7f7f7f;
+  border-style: none;
+  outline: none;
+}
+
+.topnav-logo {
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 22px;
+  margin: 0;
+  color: #7f7f7f;
+  border-style: none;
+  outline: none;
+}
+
+a, a:hover, a:visited {
+  text-decoration: none;
+  color: #7f7f7f;
+}
+
+label {
+  cursor: pointer;
+}
