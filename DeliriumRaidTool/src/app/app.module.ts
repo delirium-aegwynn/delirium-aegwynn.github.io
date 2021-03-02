@@ -12,6 +12,8 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { MatTabsModule} from '@angular/material/tabs';
 import {ReactiveFormsModule} from '@angular/forms';
+import { StrawpollsComponent } from './strawpolls/strawpolls.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import {ReactiveFormsModule} from '@angular/forms';
     PlayersComponent,
     TopnavComponent,
     NewsComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    StrawpollsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
